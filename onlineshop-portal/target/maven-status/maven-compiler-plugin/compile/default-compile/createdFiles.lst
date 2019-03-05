@@ -1,0 +1,4 @@
+com\wuky\portal\service\impl\TbContentServiceImpl.class
+com\wuky\portal\controller\TbContentController.class
+com\wuky\portal\controller\PageController.class
+com\wuky\portal\service\TbContentService.class

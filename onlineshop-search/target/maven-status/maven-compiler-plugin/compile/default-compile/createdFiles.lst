@@ -1,0 +1,3 @@
+com\wuky\search\controller\TbItemController.class
+com\wuky\search\service\impl\TbItemServiceImpl.class
+com\wuky\search\service\TbItemService.class

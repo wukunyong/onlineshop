@@ -1,0 +1,3 @@
+com\wuky\passport\service\impl\TbUserServiceImpl.class
+com\wuky\passport\controller\TbUserController.class
+com\wuky\passport\service\TbUserService.class

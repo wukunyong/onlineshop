@@ -1,0 +1,8 @@
+com\wuky\dubbo\service\TbItemDescDubboService.class
+com\wuky\dubbo\service\TbContentDubboService.class
+com\wuky\dubbo\service\TbItemParamDubboService.class
+com\wuky\dubbo\service\TbContentCategoryDubboService.class
+com\wuky\dubbo\service\TbItemParamItemDubboService.class
+com\wuky\dubbo\service\TbUserDubboService.class
+com\wuky\dubbo\service\TbItemCatDubboService.class
+com\wuky\dubbo\service\TbItemDubboService.class
