@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>onlineshop后台管理系统</title>
+<title>广财书苑后台管理系统</title>
 <link rel="stylesheet" type="text/css" href="js/jquery-easyui-1.4.1/themes/default/easyui.css" />
 <link rel="stylesheet" type="text/css" href="js/jquery-easyui-1.4.1/themes/icon.css" />
 <link rel="stylesheet" type="text/css" href="css/egou.css" />
@@ -18,7 +18,7 @@
 </style>
 </head>
 <body class="easyui-layout">
-    <div data-options="region:'west',title:'菜单',split:true" style="width:180px;">
+    <div data-options="region:'west',title:'广财书苑',split:true" style="width:240px;">
     	<ul id="menu" class="easyui-tree" style="margin-top: 10px;margin-left: 5px;">
          	<li>
          		<span>商品管理</span>
@@ -39,9 +39,7 @@
     </div>
     <div data-options="region:'center',title:''">
     	<div id="tabs" class="easyui-tabs">
-		    <div title="首页" style="padding:20px;">
-		        	
-		    </div>
+		   
 		</div>
     </div>
     

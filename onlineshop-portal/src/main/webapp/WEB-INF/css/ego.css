@@ -1342,7 +1342,7 @@ img.err-price {
 	width: 304px;
 	height: 30px;
 	margin-bottom: 3px;
-	border: 3px solid #E4393C
+	border: 3px solid #059eaf
 }
 
 #search-2013 .form {
@@ -1365,7 +1365,7 @@ img.err-price {
 
 #search-2013 .button {
 	width: 78px;
-	background: #E4393C;
+	background: #059eaf;
 	font-size: 14px;
 	font-weight: 700;
 	color: #fff
@@ -2245,13 +2245,13 @@ img.err-price {
 	height: 40px;
 	padding-left: 210px;
 	margin-bottom: 10px;
-	background: #E4393C
+	background: #038492
 }
 
 #navitems-2013 {
 	background: -moz-linear-gradient(top, #E64346, #E13335);
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#E64346),
-		to(#E13335));
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#038492),
+		to(#038492));
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E64346",
 		endColorstr="#E13335");
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr="
@@ -2284,7 +2284,7 @@ img.err-price {
 }
 
 #navitems-2013 .curr a,#navitems-2013 .hover a {
-	background: #A40000
+	background: #10555d
 }
 
 #treasure {
@@ -2337,7 +2337,7 @@ img.err-price {
 	height: 402px;
 	padding: 3px 3px 3px 0;
 	background: #FAFAFA;
-	border: solid #E4393C;
+	border: solid #038492;
 	border-width: 0 2px 2px;
 	overflow: visible
 }
@@ -2374,7 +2374,7 @@ img.err-price {
 }
 
 #categorys-2013 h3 a:hover,#categorys-2013 h3 a:active {
-	color: #E4393C;
+	color: #038492;
 	font-weight: 700
 }
 
@@ -2458,7 +2458,7 @@ img.err-price {
 }
 
 #categorys-2013 .subitem dt a {
-	color: #E4393C;
+	color: #038492;
 	text-decoration: underline
 }
 
@@ -3232,7 +3232,7 @@ img.err-price {
 }
 
 .curr .mt,.curr .smt {
-	color: #E4393C
+	color: #038492
 }
 
 .curr .mc,.curr .smc {
@@ -3285,7 +3285,7 @@ img.err-price {
 
 .root61 #o-slide,.root61 #slide,.root61 #slide .slide-itemswrap,.root61 #slide .slide-items,.root61 #slide .slide-items li
 	{
-	width: 670px
+	width: 990px
 }
 
 .root61 #slide .slide-controls {
@@ -3383,11 +3383,11 @@ img.err-price {
 }
 
 .root61 #mscroll {
-	width: 608px
+	width: 930px
 }
 
 .root61 #mscroll .o-list {
-	width: 608px
+	width: 870px
 }
 
 .root61 #mscroll .list {
@@ -3404,7 +3404,7 @@ img.err-price {
 	top: 23px;
 	left: 0;
 	height: 7px;
-	border-bottom: 2px solid #E4393C;
+	border-bottom: 2px solid #038492;
 	overflow: hidden;
 	text-align: center
 }
@@ -3416,7 +3416,7 @@ img.err-price {
 	height: 0;
 	border-style: dashed dashed solid;
 	border-width: 10px;
-	border-color: transparent transparent #E4393C;
+	border-color: transparent transparent #038492;
 	overflow: hidden;
 	zoom: 1;
 	font-size: 0

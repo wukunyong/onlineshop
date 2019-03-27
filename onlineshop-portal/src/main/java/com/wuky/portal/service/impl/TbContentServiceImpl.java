@@ -23,16 +23,17 @@ public class TbContentServiceImpl implements TbContentService
 {
 
 	@Reference
-	TbContentDubboService tbContentDubboServiceImpl;
+	private TbContentDubboService tbContentDubboService;
+
 	@Resource
 	private JedisDao JedisDaoImpl;
+
 	@Value("${redis.bigpic.key}")
 	private String key;
 
 	public String showBigPic()
 	{
 		//先判断在redis中是否存在
-
 		if (JedisDaoImpl.exists(key))
 		{
 			final String value = JedisDaoImpl.get(key);
@@ -42,30 +43,31 @@ public class TbContentServiceImpl implements TbContentService
 			}
 		}
 
-
-		//如果不存在从mysql中取,取完后放入redis中
-		final List<TbContent> list = tbContentDubboServiceImpl.selByCount(6, true);
+		final List<TbContent> list = tbContentDubboService.selByCount(6, true);
 
 		final List<Map<String, Object>> listResult = new ArrayList<Map<String, Object>>();
+
 		for (final TbContent tc : list)
 		{
 			final Map<String, Object> map = new HashMap<String, Object>();
 
 			map.put("srcB", tc.getPic2());
 			map.put("height", 240);
-			map.put("alt", "对不起,加载图片失败");
-			map.put("width", 670);
+			map.put("alt", tc.getTitle());
+			map.put("width", 990);
 			map.put("src", tc.getPic());
 			map.put("widthB", 550);
 			map.put("href", tc.getUrl());
 			map.put("heightB", 240);
 
 			listResult.add(map);
+
 		}
+
 		final String listJson = JsonUtils.objectToJson(listResult);
-		//把数据放入到redis中
 		JedisDaoImpl.set(key, listJson);
 		return listJson;
 	}
+
 
 }

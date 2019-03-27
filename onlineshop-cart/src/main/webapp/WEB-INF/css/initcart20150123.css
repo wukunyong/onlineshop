@@ -17,7 +17,7 @@
 #succeed .success{overflow:hidden;height:65px;padding:31px 10px 16px 80px;zoom:1;}
 #succeed .success b,#succeed .success-b{float:left;overflow:hidden;width:304px;height:40px;padding-left:56px;background:url(i/20130425D.png) no-repeat 0 -100px;font:normal 24px/40px \5fae\8f6f\96c5\9ed1;color:#7ABD54;}
 #succeed .success-b{color:#999;font:12px/150% Arial,Verdana,"\5b8b\4f53";height:auto}
-#succeed .success-b h3{font:normal 24px/40px \5fae\8f6f\96c5\9ed1;color:#7ABD54;}
+#succeed .success-b h3{font:normal 24px/40px \5fae\8f6f\96c5\9ed1;color:#038492;}
 
 .extend{overflow:hidden;margin-top:10px;width:565px;padding-left:35px;}
 .extend li{zoom:1;overflow:hidden;line-height:23px;font-size:12px;margin-bottom:5px;}
@@ -164,7 +164,7 @@
     background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#e74649),color-stop(1,#df3134));
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e74649', endColorstr='#df3134', GradientType='0');
     -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e74649', endColorstr='#df3134');
-    background-image: linear-gradient(to top,#e74649 0,#df3134 100%);
+    background-image: linear-gradient(to top,#295f65 0,#18b8ca 100%);
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;

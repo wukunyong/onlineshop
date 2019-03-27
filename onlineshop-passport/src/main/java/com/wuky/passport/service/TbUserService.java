@@ -34,4 +34,19 @@ public interface TbUserService
 	 * @return
 	 */
 	onlineshopResult logout(String token, HttpServletResponse response, HttpServletRequest request);
+
+	/**
+	 * 用户注册
+	 *
+	 * @param user
+	 * @return
+	 */
+	int save(TbUser user);
+
+	/**
+	 * @param param
+	 * @param type
+	 * @return
+	 */
+	public onlineshopResult checkUserInfo(String param, int type);
 }

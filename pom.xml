@@ -25,9 +25,28 @@
 		<solrj-version>5.3.1</solrj-version>
 		<httpclient-version>4.4.1</httpclient-version>
 		<pool2-version>2.5.0</pool2-version>
+		<alipay-version>3.0.0</alipay-version>
+		<commons-logging-version>1.1.1</commons-logging-version>
+		<fastjson-version>1.2.33</fastjson-version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
+		   <!-- alipay -->
+         <dependency>    
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>${alipay-version}</version>
+         </dependency>
+			<dependency>
+ 				<groupId>commons-logging</groupId>
+				<artifactId>commons-logging</artifactId>
+				<version>${commons-logging-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>fastjson</artifactId>
+				<version>${fastjson-version}</version>
+ 			</dependency>
 			<dependency>
     			<groupId>org.apache.commons</groupId>
     			<artifactId>commons-pool2</artifactId>
@@ -190,12 +209,14 @@
 		<module>onlineshop-service-impl</module>
 		<module>onlineshop-conmons</module>
 		<module>onlineshop-manage</module>
-		<module>onlineshop-portal</module>
 		<module>onlineshop-item</module>
 		<module>onlineshop-redis</module>
 		<module>onlineshop-search</module>
 		<module>onlineshop-passport</module>
 		<module>onlineshop-cart</module>
 		<module>onlineshop-order</module>
+		<module>onlineshop-portal</module>
+		<module>onlineshop-bookstore</module>
+		<module>onlineshop-alipay</module>
 	</modules>
 </project>

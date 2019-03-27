@@ -18,9 +18,11 @@ public interface TbContentService
 
 	/**
 	 * 内容新增
-	 * 
+	 *
 	 * @param content
 	 * @return
 	 */
 	int save(TbContent content);
+
+
 }

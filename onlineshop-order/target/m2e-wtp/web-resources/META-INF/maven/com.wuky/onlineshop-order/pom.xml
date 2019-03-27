@@ -8,6 +8,11 @@
   <artifactId>onlineshop-order</artifactId>
   <packaging>war</packaging>
   <dependencies>
+  		<!-- alipay -->
+      <dependency>    
+         <groupId>com.alipay.sdk</groupId>
+         <artifactId>alipay-sdk-java</artifactId>
+      </dependency>
   		<dependency>
 			<groupId>commons-net</groupId>
 			<artifactId>commons-net</artifactId>

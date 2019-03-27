@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.wuky.commons.pojo.onlineshopResult;
+import com.wuky.commons.utils.IDUtils;
 import com.wuky.order.pojo.MyOrderParam;
 import com.wuky.order.service.TbOrderService;
 
@@ -39,8 +40,11 @@ public class OrderController
 	@RequestMapping("order/create.html")
 	public String createOrder(final MyOrderParam param, final HttpServletRequest request)
 	{
-		final onlineshopResult result = tbOrderServiceImpl.create(param, request);
-		if (result.getStatus() == 200)
+		final long id = IDUtils.genItemId();
+		param.setOrderid(id + "");
+		final onlineshopResult oresult = tbOrderServiceImpl.create(param, request);
+
+		if (oresult.getStatus() == 200)
 		{
 			return "my-orders";
 		}
@@ -51,4 +55,37 @@ public class OrderController
 		}
 	}
 
+	/**
+	 * 显示我的订单
+	 *
+	 * @return
+	 */
+	@RequestMapping("order/myorder.html")
+	public String showMyOrder()
+	{
+		return "my-orders";
+	}
+
+	/**
+	 * 显示我的信息
+	 *
+	 * @return
+	 */
+	@RequestMapping("order/myinfo.html")
+	public String showMyInfo()
+	{
+		return "my-info";
+	}
+
+	@RequestMapping("order/error.html")
+	public String showError()
+	{
+		return "error/exception";
+	}
+
+	@RequestMapping("order/success.html")
+	public String showSuccess()
+	{
+		return "success";
+	}
 }

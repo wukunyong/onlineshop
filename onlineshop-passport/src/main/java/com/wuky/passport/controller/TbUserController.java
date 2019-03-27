@@ -32,8 +32,6 @@ public class TbUserController
 	public String showLogin(@RequestHeader(value = "Referer", defaultValue = "") final String url, final Model model,
 			final String interurl)
 	{
-		System.out.println("url:" + url);
-		System.out.println("interurl:" + interurl);
 		if (interurl != null && !interurl.equals(""))
 		{
 			model.addAttribute("redirect", interurl);
@@ -42,7 +40,7 @@ public class TbUserController
 		{
 			model.addAttribute("redirect", url);
 		}
-		return "login";
+		return "newlogin";
 	}
 
 	/**
@@ -101,4 +99,46 @@ public class TbUserController
 		return oResult;
 	}
 
+	/**
+	 * 显示注册页面
+	 *
+	 * @return
+	 */
+	@RequestMapping("user/showRegister")
+	public String showRegister()
+	{
+		return "register";
+	}
+
+	@RequestMapping("/user/register")
+	@ResponseBody
+	public onlineshopResult register(final TbUser tbUser)
+	{
+		final onlineshopResult oResult = new onlineshopResult();
+		int index;
+
+		index = tbUserServiceImpl.save(tbUser);
+		try
+		{
+			if (index == 1)
+			{
+				oResult.setStatus(200);
+			}
+		}
+		catch (final Exception e)
+		{
+			e.printStackTrace();
+			oResult.setData(e.getMessage());
+		}
+		return oResult;
+	}
+
+	@RequestMapping("user/check/{param}/{type}")
+	@ResponseBody
+	public onlineshopResult checkUserInfo(@PathVariable final String param, @PathVariable final Integer type)
+	{
+		final onlineshopResult oResult = tbUserServiceImpl.checkUserInfo(param, type);
+		return oResult;
+
+	}
 }

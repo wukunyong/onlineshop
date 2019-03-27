@@ -44,7 +44,7 @@ public class TbContentDubboServiceImpl implements TbContentDubboService
 	public List<TbContent> selByCount(final int count, final boolean isSort)
 	{
 		final TbContentExample example = new TbContentExample();
-		//排序
+
 		if (isSort)
 		{
 			example.setOrderByClause("updated desc");
@@ -53,13 +53,15 @@ public class TbContentDubboServiceImpl implements TbContentDubboService
 		{
 			PageHelper.startPage(1, count);
 			final List<TbContent> list = tbContentMapper.selectByExampleWithBLOBs(example);
-			final PageInfo<TbContent> pi = new PageInfo<TbContent>(list);
-			return pi.getList();
+			final PageInfo<TbContent> pInfo = new PageInfo<TbContent>(list);
+			return pInfo.getList();
 		}
 		else
 		{
 			return tbContentMapper.selectByExampleWithBLOBs(example);
 		}
 	}
+
+
 
 }

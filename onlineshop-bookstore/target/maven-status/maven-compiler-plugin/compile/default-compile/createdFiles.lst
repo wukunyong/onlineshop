@@ -1,0 +1,4 @@
+com\wuky\bookstore\controller\PageController.class
+com\wuky\bookstore\controller\TbContentController.class
+com\wuky\bookstore\service\TbContentService.class
+com\wuky\bookstore\service\impl\TbContentServiceImpl.class

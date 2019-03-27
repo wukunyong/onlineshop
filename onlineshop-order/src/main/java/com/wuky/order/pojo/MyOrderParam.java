@@ -8,10 +8,22 @@ import com.wuky.pojo.TbOrderShipping;
 
 public class MyOrderParam
 {
+	private String orderid;
 	private int paymentType;
 	private String payment;
 	private List<TbOrderItem> orderItems;
 	private TbOrderShipping orderShipping;
+
+
+	public String getOrderid()
+	{
+		return orderid;
+	}
+
+	public void setOrderid(final String orderid)
+	{
+		this.orderid = orderid;
+	}
 
 	public int getPaymentType()
 	{

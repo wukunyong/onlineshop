@@ -1356,7 +1356,7 @@ img.err-price {
 	width: 304px;
 	height: 30px;
 	margin-bottom: 3px;
-	border: 3px solid #E4393C
+	border: 3px solid #059eaf
 }
 
 #search-2013 .form {
@@ -1379,7 +1379,7 @@ img.err-price {
 
 #search-2013 .button {
 	width: 78px;
-	background: #E4393C;
+	background: #059eaf;
 	font-size: 14px;
 	font-weight: 700;
 	color: #fff
@@ -2265,8 +2265,8 @@ img.err-price {
 
 #navitems-2013 {
 	background: -moz-linear-gradient(top, #E64346, #E13335);
-	background: -webkit-gradient(linear, 0 0, 0 100%, from(#E64346),
-		to(#E13335));
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#038492),
+		to(#038492));
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E64346",
 		endColorstr="#E13335");
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr="
@@ -2299,7 +2299,7 @@ img.err-price {
 }
 
 #navitems-2013 .curr a, #navitems-2013 .hover a {
-	background: #A40000
+	background: #10555d
 }
 
 #treasure {
@@ -2324,7 +2324,7 @@ img.err-price {
 }
 
 #categorys-2013 .mt {
-	background: #CD2A2C
+	background: #038492
 }
 
 #categorys-2013 .mt a {
@@ -2352,7 +2352,7 @@ img.err-price {
 	height: 402px;
 	padding: 3px 3px 3px 0;
 	background: #FAFAFA;
-	border: solid #E4393C;
+	border: solid #038492;
 	border-width: 0 2px 2px;
 	overflow: visible
 }

@@ -27,4 +27,32 @@ public class TbUserDubboServiceImpl implements TbUserDubboService
 		return null;
 	}
 
+	public int insByUser(final TbUser user)
+	{
+		return tbUserMapper.insertSelective(user);
+	}
+
+	public boolean selUserInfo(final String param, final int type)
+	{
+		final TbUserExample example = new TbUserExample();
+		if (type == 1)
+		{
+			example.createCriteria().andUsernameEqualTo(param);
+		}
+		else if (type == 2)
+		{
+			example.createCriteria().andEmailEqualTo(param);
+		}
+
+		final List<TbUser> list = tbUserMapper.selectByExample(example);
+
+		if (list != null && list.size() > 0)
+		{
+			return false;
+		}
+		return true;
+	}
+
+
+
 }

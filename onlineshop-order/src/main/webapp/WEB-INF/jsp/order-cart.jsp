@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>订单结算页 -易购商城</title>
+    <title>订单结算页 -广财书苑商城</title>
 	<!--结算页面样式-->	
 	<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
     <link type="text/css" rel="stylesheet"  href="/css/order-commons.css" source="widget"/>	
@@ -25,7 +25,7 @@
 <!--shortcut end-->
 
 <div class="w w1 header clearfix">
-    <div id="logo"><a href="http://localhost:8082"><img src="/images/ego-logo.gif" alt="易购商城"></a></div>
+    <div id="logo"><a href="http://localhost:8082"><img src="/images/GdufeBookStore.png" alt="广财书苑"></a></div>
 </div>
 
 <form id="orderForm" class="hide" action="/order/create.html" method="post">
@@ -174,7 +174,7 @@
 <div class="step-tit">
 	<h3>送货清单</h3>
 	<div class="extra-r">
-					<a href="/cart/show.html" id="cartRetureUrl" class="return-edit ftx-05">返回修改购物车</a>
+					<a href="http://localhost:8085/cart/cart.html" id="cartRetureUrl" class="return-edit ftx-05">返回修改购物车</a>
 			</div>
 </div>
 <div class="step-cont" id="skuPayAndShipment-cont">
@@ -183,7 +183,7 @@
 <div class="shopping-list ABTest">
 	<div class="goods-list">
      <!--配送方式-->
-    <h4 class="vendor_name_h" id="0">商家：易购商城</h4>		         
+    <h4 class="vendor_name_h" id="0">商家：广财书苑商城</h4>		         
     <div class="goods-suit goods-last">
 	 <c:forEach items="${cartList }" var="cart">
 		<div class="goods-item goods-item-extra">
@@ -235,7 +235,7 @@
 			<ul>
 				<li class="mode-tab-item " id="jd_shipment_item"
 					onclick="doSwithTab('pay')"><span
-					id="jdShip-span-tip" class="m-txt">易购快递<i
+					id="jdShip-span-tip" class="m-txt">顺丰快递<i
 						class='qmark-icon qmark-tip'
 						data-tips='由易购公司负责配送，速度很快，还接受上门刷卡付款服务'></i></span><b></b></li>
 			</ul>

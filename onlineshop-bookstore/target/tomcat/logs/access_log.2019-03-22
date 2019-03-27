@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /js/base-v1.js HTTP/1.1" 200 10615 http-bio-8082-exec-4 24
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /css/ego.css HTTP/1.1" 200 109778 http-bio-8082-exec-3 26
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /images/GdufeBookStore.png HTTP/1.1" 200 13932 http-bio-8082-exec-5 192
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET / HTTP/1.1" 200 95119 http-bio-8082-exec-1 2863
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /js/jquery-1.6.4.js HTTP/1.1" 200 92010 http-bio-8082-exec-9 7
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /js/jquery-extend.js HTTP/1.1" 200 1802 http-bio-8082-exec-10 6
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /js/lib-v1.js HTTP/1.1" 200 122978 http-bio-8082-exec-8 7
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /js/ego.js HTTP/1.1" 200 1139 http-bio-8082-exec-7 7
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /js/home.js HTTP/1.1" 200 50433 http-bio-8082-exec-6 8
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /images/loading-jd.gif HTTP/1.1" 200 166 http-bio-8082-exec-7 5
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:15 +0800] "GET /images/20130330A_2.png HTTP/1.1" 200 8252 http-bio-8082-exec-6 124
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:16 +0800] "GET /images/c5dc78c2d94ae468.jpg HTTP/1.1" 200 39382 http-bio-8082-exec-7 124
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:16 +0800] "GET /images/24106554-1_u_4.jpg HTTP/1.1" 200 127448 http-bio-8082-exec-8 136
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:16 +0800] "GET /images/error-jd.gif HTTP/1.1" 200 15433 http-bio-8082-exec-6 149
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:16 +0800] "GET /images/17.png HTTP/1.1" 200 1802 http-bio-8082-exec-10 42
+0:0:0:0:0:0:0:1 - - [22/Mar/2019:20:00:18 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8082-exec-10 3

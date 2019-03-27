@@ -34,7 +34,7 @@ public interface TbContentCategoryDubboService
 
 	/**
 	 * 通过id查询内容类目详细信息
-	 * 
+	 *
 	 * @param id
 	 * @return
 	 */

@@ -214,7 +214,7 @@ a.btn:hover,a.btn:hover span {
 .progress ul {width:481px; float:right;}
 .progress li {width:160px; height:23px; float:left; color:#bce8a3; line-height:23px; text-align:center;}
 .progress li b {width:22px; height:25px; display:none; }
-.progress li.step-1{color:#7abd54;}
+.progress li.step-1{color:#038492;}
 .progress li.step-2{color:#aaaaaa;width:161px;}
 .progress li.step-3{color:#aaaaaa;}
 .progress li.complete b {background-position:0 -50px;}

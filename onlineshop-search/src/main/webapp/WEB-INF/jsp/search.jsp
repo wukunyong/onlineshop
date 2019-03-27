@@ -7,9 +7,9 @@
 <head>
 <meta http-equiv="Cache-Control" content="max-age=300" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>${query} - 商品搜索 - 易购</title>
-<meta name="Keywords" content="java,易购java" />
-<meta name="description" content="在易购中找到了29910件java的类似商品，其中包含了“图书”，“电子书”，“教育音像”，“骑行运动”等类型的java的商品。" />
+<title>${query} - 商品搜索 - 广财书苑商城</title>
+<meta name="Keywords" content="java,书苑java" />
+<meta name="description" content="在书苑中找到了29910件java的类似商品，其中包含了“图书”，“电子书”，“教育音像”，“骑行运动”等类型的java的商品。" />
 <link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
 <link rel="stylesheet" type="text/css" href="/css/psearch20131008.css" media="all" />
 <link rel="stylesheet" type="text/css" href="/css/psearch.onebox.css" media="all" />
@@ -24,20 +24,6 @@
 <div class="w main">
 	<div class="crumb">全部结果&nbsp;&gt;&nbsp;<strong>"${query}"</strong></div>
 <div class="clr"></div>
-<div class="m clearfix" id="bottom_pager">
-<div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
-	<span class="prev-disabled">上一页<b></b></span>
-	<a href="javascript:void(0)" class="current">1</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2">2</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=3">3</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=4">4</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=5">5</a>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=6">6</a>
-	<span class="text">…</span>
-	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2" class="next">下一页<b></b></a>
-	<span class="page-skip"><em>&nbsp;&nbsp;共${totalPages}页&nbsp;&nbsp;&nbsp;&nbsp;到第</em></span>
-</div>
-</div>
 <div class="m psearch " id="plist">
 <ul class="list-h clearfix" tpl="2">
 <c:forEach items="${itemList}" var="item">
@@ -53,16 +39,30 @@
 		</a>
 	</div>
 	<div class="p-price">
-		<i>易购价：</i>
+		<i>特价：</i>
 		<strong>￥<fmt:formatNumber groupingUsed="false" maxFractionDigits="2" minFractionDigits="2" value="${item.price / 100 }"/></strong>
 	</div>
-	<div class="service">由 易购 发货</div>
-	<div class="extra">
+	<div class="service">广财书苑自营</div>
+	<!-- <div class="extra">
 		<span class="star"><span class="star-white"><span class="star-yellow h5">&nbsp;</span></span></span>
-	</div>
+	</div> -->
 </li>
 </c:forEach>
 </ul></div>
+<div class="m clearfix" id="bottom_pager">
+<div  id="pagin-btm" class="pagin fr" clstag="search|keycount|search|pre-page2">
+	<span class="prev-disabled">上一页<b></b></span>
+	<a href="javascript:void(0)" class="current">1</a>
+	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2">2</a>
+	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=3">3</a>
+	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=4">4</a>
+	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=5">5</a>
+	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=6">6</a>
+	<span class="text">…</span>
+	<a href="search?keyword=java&enc=utf-8&qr=&qrst=UNEXPAND&rt=1&page=2" class="next">下一页<b></b></a>
+	<span class="page-skip"><em>&nbsp;&nbsp;共${totalPages}页&nbsp;&nbsp;&nbsp;&nbsp;到第</em></span>
+</div>
+</div>
 </div>
 <!-- footer start -->
 <jsp:include page="commons/footer.jsp" />

@@ -27,6 +27,7 @@ public class TbItemServiceImpl implements TbItemService
 	@Value("${redis.item.key}")
 	private String itemKey;
 
+	@SuppressWarnings("unlikely-arg-type")
 	public TbItemChild show(final long id)
 	{
 		final String key = itemKey + id;
@@ -45,7 +46,7 @@ public class TbItemServiceImpl implements TbItemService
 		child.setTitle(item.getTitle());
 		child.setPrice(item.getPrice());
 		child.setSellPoint(item.getSellPoint());
-		child.setImages(item.getImage() != null && item.equals("") ? item.getImage().split(",") : new String[1]);
+		child.setImages(item.getImage() != null && !item.equals("") ? item.getImage().split(",") : new String[1]);
 		//存到数据库中
 		jedisDaoImpl.set(key, JsonUtils.objectToJson(child));
 		return child;

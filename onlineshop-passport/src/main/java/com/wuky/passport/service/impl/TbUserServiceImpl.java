@@ -1,5 +1,6 @@
 package com.wuky.passport.service.impl;
 
+import java.util.Date;
 import java.util.UUID;
 
 import javax.annotation.Resource;
@@ -76,5 +77,30 @@ public class TbUserServiceImpl implements TbUserService
 		oResult.setMsg("ok");
 		return oResult;
 	}
+
+	public int save(final TbUser user)
+	{
+		final TbUser userFinal = user;
+		final Date date = new Date();
+		userFinal.setCreated(date);
+		userFinal.setUpdated(date);
+
+		int index = 0;
+		index = tbUserDubboServiceImpl.insByUser(userFinal);
+
+		return index;
+	}
+
+	public onlineshopResult checkUserInfo(final String param, final int type)
+	{
+		final onlineshopResult oResult = new onlineshopResult();
+
+		final boolean bool = tbUserDubboServiceImpl.selUserInfo(param, type);
+
+		oResult.setData(bool);
+
+		return oResult;
+	}
+
 
 }

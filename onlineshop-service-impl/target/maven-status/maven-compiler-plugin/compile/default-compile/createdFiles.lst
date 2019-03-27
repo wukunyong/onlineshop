@@ -10,6 +10,7 @@ com\wuky\mapper\TbItemMapper.class
 com\wuky\dubbo\service\impl\TbContentCategoryDubboServiceImpl.class
 com\wuky\mapper\TbItemParamItemMapper.class
 com\wuky\dubbo\service\impl\TbItemDescDubboServiceImpl.class
+com\wuky\dubbo\service\impl\TbOrderDubboServiceImpl.class
 com\wuky\mapper\TbItemDescMapper.class
 com\wuky\mapper\TbContentMapper.class
 com\wuky\dubbo\service\impl\TbItemCatDubboServiceImpl.class

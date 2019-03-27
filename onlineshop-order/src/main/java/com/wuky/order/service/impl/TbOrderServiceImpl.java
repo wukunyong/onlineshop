@@ -91,8 +91,7 @@ public class TbOrderServiceImpl implements TbOrderService
 		final TbOrder tbOrder = new TbOrder();
 		tbOrder.setPayment(param.getPayment());
 		tbOrder.setPaymentType(param.getPaymentType());
-		final long id = IDUtils.genItemId();
-		tbOrder.setOrderId(id + "");
+		tbOrder.setOrderId(param.getOrderid());
 		final Date date = new Date();
 		tbOrder.setCreateTime(date);
 		tbOrder.setUpdateTime(date);
@@ -110,12 +109,12 @@ public class TbOrderServiceImpl implements TbOrderService
 		for (final TbOrderItem item : param.getOrderItems())
 		{
 			item.setId(IDUtils.genItemId() + "");
-			item.setOrderId(id + "");
+			item.setOrderId(param.getOrderid());
 		}
 
 		//收货人信息
 		final TbOrderShipping tbOrderShipping = param.getOrderShipping();
-		tbOrderShipping.setOrderId(id + "");
+		tbOrderShipping.setOrderId(param.getOrderid());
 		tbOrderShipping.setCreated(date);
 		tbOrderShipping.setUpdated(date);
 

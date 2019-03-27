@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
     <meta name="format-detection" content="telephone=no" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>订单结算页 -易购商城</title>
+    <title>订单结算页 -广财书苑商城</title>
 	<!--结算页面样式-->	
 	<link rel="stylesheet" type="text/css" href="/css/base.css" media="all" />
     <link type="text/css" rel="stylesheet"  href="/css/order-commons.css" source="widget"/>	
@@ -25,7 +25,7 @@
 <!--shortcut end-->
 
 <div class="w w1 header clearfix">
-    <div id="logo"><a href="http://localhost:8082"><img src="/images/ego-logo.gif" alt="易购商城"></a></div>
+    <div id="logo"><a href="http://localhost:8082"><img src="/images/GdufeBookStore.png" alt="广财书苑"></a></div>
 </div>
 
 <form id="orderForm" class="hide" action="http://localhost:8086/order/create.html" method="post">

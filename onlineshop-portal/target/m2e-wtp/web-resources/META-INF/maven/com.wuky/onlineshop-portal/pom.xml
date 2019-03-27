@@ -8,8 +8,12 @@
   <artifactId>onlineshop-portal</artifactId>
   <packaging>war</packaging>
   <dependencies>
-	   <!-- onlineshop-redis -->
-	   <dependency>
+  		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+		</dependency>
+  		<!-- 依赖redis -->
+  		<dependency>
 			<groupId>com.wuky</groupId>
 			<artifactId>onlineshop-redis</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
@@ -25,7 +29,6 @@
 			<artifactId>onlineshop-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- 依赖conmons -->
 		<dependency>
 			<groupId>com.wuky</groupId>
 			<artifactId>onlineshop-conmons</artifactId>

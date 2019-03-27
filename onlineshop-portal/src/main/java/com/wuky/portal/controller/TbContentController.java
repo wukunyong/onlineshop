@@ -19,7 +19,7 @@ public class TbContentController
 	public String showBigPic(final Model model)
 	{
 		//这里一直抛空指针异常
-		//model.addAttribute("ad1", tbContentServiceImpl.showBigPic());
+		model.addAttribute("ad1", tbContentServiceImpl.showBigPic());
 		return "index";
 	}
 }

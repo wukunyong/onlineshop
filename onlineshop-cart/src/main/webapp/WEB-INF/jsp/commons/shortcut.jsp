@@ -2,21 +2,17 @@
 <div id="shortcut-2013">
 	<div class="w">
 		<ul class="fl lh">
-			<li class="fore1 ld" clstag="homepage|keycount|home2013|01a"><b></b><a href="javascript:addToFavorite()" rel="nofollow">收藏易购</a></li>
+			<li class="fore1 ld" clstag="homepage|keycount|home2013|01a"><b></b><a href="javascript:addToFavorite()" rel="nofollow">网罗天下图书 传承中华文明</a></li>
 		</ul>
 		<ul class="fr lh">
-			<li class="fore1" id="loginbar" clstag="homepage|keycount|home2013|01b">您好！欢迎来到易购！<a href="javascript:login()">[登录]</a>&nbsp;<a href="javascript:regist()">[免费注册]</a></li>
+			<li class="fore1" id="loginbar" clstag="homepage|keycount|home2013|01b">您好！欢迎来到广财书苑商城！<a href="javascript:login()">[登录]</a>&nbsp;<a href="javascript:regist()">[免费注册]</a></li>
 			<li class="fore2 ld" clstag="homepage|keycount|home2013|01c">
 				<s></s>
-				<a href="http://jd2008.jd.com/JdHome/OrderList.aspx" rel="nofollow">我的订单</a>
+				<a href="http://localhost:8086/order/myorder.html" rel="nofollow">我的订单</a>
 			</li>
-			<li class="fore2-1 ld" id="jd-vip">
+			<li class="fore2 ld" clstag="homepage|keycount|home2013|01c">
 				<s></s>
-				<a target="_blank" rel="nofollow" href="http://vip.jd.com">会员俱乐部</a>
-			</li>
-			<li class="fore3 ld menu" id="app-jd" data-widget="dropdown" clstag="homepage|keycount|home2013|01d">
-				<s></s><i></i><span class="outline"></span><span class="blank"></span>
-				<a href="http://app.jd.com/" target="_blank">手机易购</a><b></b>
+				<a href="http://localhost:8086/order/myinfo.html" rel="nofollow">我的信息</a>
 			</li>
 			<li class="fore4 ld menu" id="biz-service" data-widget="dropdown" clstag="homepage|keycount|home2013|01e">
 				<s></s>
@@ -42,16 +38,10 @@
 					<dl class="item fore1">
 						<dt>特色栏目</dt>
 						<dd>
-							<div><a target="_blank" href="http://mobile.jd.com/index.do">易购通信</a></div>
 							<div><a target="_blank" href="http://jdstar.jd.com/">校园之星</a></div>
 							<div><a target="_blank" href="http://my.jd.com/personal/guess.html">为我推荐</a></div>
 							<div><a target="_blank" href="http://shipingou.jd.com/">视频购物</a></div>
-							<div><a target="_blank" href="http://club.jd.com/">易购社区</a></div>
 							<div><a target="_blank" href="http://read.jd.com/">在线读书</a></div>
-							<div><a target="_blank" href="http://diy.jd.com/">装机大师</a></div>
-							<div><a target="_blank" href="http://giftcard.jd.com/market/index.action">易购E卡</a></div>
-							<div><a target="_blank" href="http://channel.jd.com/jiazhuang.html">家装城</a></div>
-							<div><a target="_blank" href="http://dapeigou.jd.com/">搭配购</a></div>
 							<div><a target="_blank" href="http://xihuan.jd.com/">我喜欢</a></div>
 						</dd>
 					</dl>
